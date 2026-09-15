@@ -1,12 +1,16 @@
 .content-box {
     border: none;
     width: 100%; /* 可根据需要调整 */
-    height: 200px; /* 设置一个固定的高度 */
+    height: auto;
+    min-height: 0;
+    max-height: 200px;
     overflow-y: auto; /* 垂直滚动 */
     padding: 10px;
 }
 
 .news-list {
+    height: auto;
+    min-height: 0;
     /* 根据需要设置样式，例如字体、间距等 */
 }
 
